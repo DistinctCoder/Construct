@@ -2,11 +2,11 @@
 
 class Student{
 
-    protected $name;
+    protected $name; // Access modifier
     protected $age;
 
     public function getName(){
-        return $this->name; //
+        return $this->name;
     }
 
     public function getAge(){
